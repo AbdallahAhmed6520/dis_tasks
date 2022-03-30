@@ -104,10 +104,8 @@ func delete(id int) {
 
 func main() {
 	dbConn()
-	fmt.Println(getAllEmployees())
-	insert("abdallah", "assuit")
-	fmt.Println(getAllEmployees())
-
+	//fmt.Println(getAllEmployees())
+	//insert("", "")
 	// update(1, "", "")
 	// delete(1)
 }
